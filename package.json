@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Randomize sequences by writing them as expressions",
   "repository": "https://github.com/tpronk/randomize_by_expression",
-  "license": "Apache 2.0",
+  "license": "GPL-3",
   "dependencies": {
     "jsep": "~0.3.4",
     "underscore": "~1.9.1"
