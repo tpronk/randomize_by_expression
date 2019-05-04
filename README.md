@@ -29,33 +29,33 @@ in_tri: [it_1, it_2] # incompatible trials
 ```
 In each example, first the expression is show, followed by all possible sequences that can be generated from this expression.
 
-## Present compatible and incompatible trials
+Present compatible and incompatible trials in sequence
 ```
 seq(co_tri, in_tri)
 [ct_1, ct_2, it_1, it_2]
 ```
 
-## Alternate compatible and incompatible trials
+Alternate compatible and incompatible trials
 ```
 alt(co_tri, in_tri)
 [ct_1, it_1, ct_2, it_2]
 ```
 
-## Present either compatible or incompatible trials 
+Present either compatible or incompatible trials 
 ```
 one(co_tri, in_tri)
 [ct_1, ct_2]
 [it_1, it_2]
 ```
 
-## Random order of compatible and incompatible blocks 
+Random order of compatible and incompatible blocks 
 ```
 rnd(co_tri, in_tri)
 [ct_1, ct_2, it_1, it_2]
 [it_1, it_2, ct_1, ct_2]
 ```
 
-## Shuffle compatible trials 
+Shuffle compatible trials 
 ```
 shu(co_tri)
 [ct_1, ct_2]
@@ -84,8 +84,8 @@ seq(fi_sli, one(
 
 Approximate Combinator
 While the randomization by expression takes care of generating random sequences, generating the sets of trials involved in this randomization often involves a complete or approximate combination of a list of features. For example:
-•	Present trials with a green or blue dot positioned left or right side, such that there is an equal number of trials with dots green-left, green-right, blue-left, and blue-right.
-•	Present X stimuli over Y trials, such that stimuli are preferably exact, but at least approximately presented the same number of times.
+â€¢	Present trials with a green or blue dot positioned left or right side, such that there is an equal number of trials with dots green-left, green-right, blue-left, and blue-right.
+â€¢	Present X stimuli over Y trials, such that stimuli are preferably exact, but at least approximately presented the same number of times.
 To facilitate factories in generating such trial sets, the randomizer contains an approximate combinatorics library (Table 7).
 Table 7. Functions provided by the Randomizer approximate combinatorics library
 Function	Description
