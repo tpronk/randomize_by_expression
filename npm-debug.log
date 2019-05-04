@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose install where, deps [ 'D:\\wamp\\www\\Githubs\\randomize_by_expression', [] ]
+6 verbose install where, peers [ 'D:\\wamp\\www\\Githubs\\randomize_by_expression', [] ]
+7 info preinstall randomize_by_expression@0.1.0
+8 silly install resolved []
+9 info build D:\wamp\www\Githubs\randomize_by_expression
+10 verbose linkStuff [ false, false, false, 'D:\\wamp\\www\\Githubs' ]
+11 info linkStuff randomize_by_expression@0.1.0
+12 verbose linkBins randomize_by_expression@0.1.0
+13 verbose linkMans randomize_by_expression@0.1.0
+14 verbose rebuildBundles randomize_by_expression@0.1.0
+15 verbose rebuildBundles [ 'jsep', 'underscore', 'webpack', 'webpack-cli' ]
+16 verbose rebuild bundle D:\wamp\www\Githubs\randomize_by_expression\node_modules\jsep
+17 info build D:\wamp\www\Githubs\randomize_by_expression\node_modules\jsep
+18 info preinstall jsep@0.3.4
+19 verbose linkStuff [ false,
+19 verbose linkStuff   false,
+19 verbose linkStuff   false,
+19 verbose linkStuff   'D:\\wamp\\www\\Githubs\\randomize_by_expression\\node_modules' ]
+20 info linkStuff jsep@0.3.4
+21 verbose linkBins jsep@0.3.4
+22 verbose linkMans jsep@0.3.4
+23 verbose rebuildBundles jsep@0.3.4
+24 info install jsep@0.3.4
+25 info postinstall jsep@0.3.4
+26 verbose rebuild bundle D:\wamp\www\Githubs\randomize_by_expression\node_modules\underscore
+27 info build D:\wamp\www\Githubs\randomize_by_expression\node_modules\underscore
+28 info preinstall underscore@1.9.1
+29 verbose linkStuff [ false,
+29 verbose linkStuff   false,
+29 verbose linkStuff   false,
+29 verbose linkStuff   'D:\\wamp\\www\\Githubs\\randomize_by_expression\\node_modules' ]
+30 info linkStuff underscore@1.9.1
+31 verbose linkBins underscore@1.9.1
+32 verbose linkMans underscore@1.9.1
+33 verbose rebuildBundles underscore@1.9.1
+34 info install underscore@1.9.1
+35 info postinstall underscore@1.9.1
+36 verbose rebuild bundle D:\wamp\www\Githubs\randomize_by_expression\node_modules\webpack
+37 info build D:\wamp\www\Githubs\randomize_by_expression\node_modules\webpack
+38 info preinstall webpack@4.30.0
+39 verbose linkStuff [ false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   false,
+39 verbose linkStuff   'D:\\wamp\\www\\Githubs\\randomize_by_expression\\node_modules' ]
+40 info linkStuff webpack@4.30.0
+41 verbose linkBins webpack@4.30.0
+42 verbose link bins [ { webpack: './bin/webpack.js' },
+42 verbose link bins   'D:\\wamp\\www\\Githubs\\randomize_by_expression\\node_modules\\.bin',
+42 verbose link bins   false ]
+43 verbose linkMans webpack@4.30.0
+44 verbose rebuildBundles webpack@4.30.0
+45 info install webpack@4.30.0
+46 info postinstall webpack@4.30.0
+47 verbose rebuild bundle D:\wamp\www\Githubs\randomize_by_expression\node_modules\webpack-cli
+48 info build D:\wamp\www\Githubs\randomize_by_expression\node_modules\webpack-cli
+49 info preinstall webpack-cli@3.3.1
+50 verbose linkStuff [ false,
+50 verbose linkStuff   false,
+50 verbose linkStuff   false,
+50 verbose linkStuff   'D:\\wamp\\www\\Githubs\\randomize_by_expression\\node_modules' ]
+51 info linkStuff webpack-cli@3.3.1
+52 verbose linkBins webpack-cli@3.3.1
+53 verbose link bins [ { 'webpack-cli': './bin/cli.js' },
+53 verbose link bins   'D:\\wamp\\www\\Githubs\\randomize_by_expression\\node_modules\\.bin',
+53 verbose link bins   false ]
+54 verbose linkMans webpack-cli@3.3.1
+55 verbose rebuildBundles webpack-cli@3.3.1
+56 verbose rebuildBundles [ '.bin',
+56 verbose rebuildBundles   'chalk',
+56 verbose rebuildBundles   'cross-spawn',
+56 verbose rebuildBundles   'enhanced-resolve',
+56 verbose rebuildBundles   'findup-sync',
+56 verbose rebuildBundles   'global-modules',
+56 verbose rebuildBundles   'import-local',
+56 verbose rebuildBundles   'interpret',
+56 verbose rebuildBundles   'loader-utils',
+56 verbose rebuildBundles   'supports-color',
+56 verbose rebuildBundles   'v8-compile-cache',
+56 verbose rebuildBundles   'yargs' ]
+57 info install webpack-cli@3.3.1
+58 info postinstall webpack-cli@3.3.1
+59 verbose unsafe-perm in lifecycle true
+60 info webpack-cli@3.3.1 Failed to exec postinstall script
+61 verbose stack Error: webpack-cli@3.3.1 postinstall: `node ./bin/opencollective.js`
+61 verbose stack Exit status 1
+61 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+61 verbose stack     at EventEmitter.emit (events.js:110:17)
+61 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+61 verbose stack     at ChildProcess.emit (events.js:110:17)
+61 verbose stack     at maybeClose (child_process.js:1015:16)
+61 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+62 verbose pkgid webpack-cli@3.3.1
+63 verbose cwd D:\wamp\www\Githubs\randomize_by_expression
+64 error Windows_NT 6.3.9600
+65 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+66 error node v0.12.2
+67 error npm  v2.7.4
+68 error code ELIFECYCLE
+69 error webpack-cli@3.3.1 postinstall: `node ./bin/opencollective.js`
+69 error Exit status 1
+70 error Failed at the webpack-cli@3.3.1 postinstall script 'node ./bin/opencollective.js'.
+70 error This is most likely a problem with the webpack-cli package,
+70 error not with npm itself.
+70 error Tell the author that this fails on your system:
+70 error     node ./bin/opencollective.js
+70 error You can get their info via:
+70 error     npm owner ls webpack-cli
+70 error There is likely additional logging output above.
+71 verbose exit [ 1, true ]
