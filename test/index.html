@@ -4,7 +4,19 @@
         <title>TODO supply a title</title>
         <meta charset="windows-1252">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type = "text/javascript" src = "../dist/rbe.dev.js" ></script>
+        <script type="text/javascript" src="../dist/rbe.dev.js" ></script>
+        <script type="text/javascript">
+            var expression = "rnd(seq(a_1,a_2),seq(b_1,rnd(b_2_a,b_2_b)),c)";
+            x = new rbe();
+            result = rbe.randomizeExpression(expression);
+            console.log(result);
+//            tree = jsep(expression);
+//            console.log(tree);            
+//            tree = randomizeTree(tree);
+//            console.log(tree);
+//            tree = flattenTree(tree);
+//            console.log(tree);
+         </script>
     </head>
     <body>
         <div>TODO write content</div>
