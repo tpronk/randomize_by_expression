@@ -5,6 +5,7 @@ var jasmin = (function (jasmin) {
    * Randomizes a set of elements based on an expression. In this expression the following functions are supported:
    * - seq to keep a set of elements in the order specified
    * - rnd to randomize the order of a set of elements
+   * - shu to randomize all elements
    * - one to randomly pick one out of a set of elements
    * For example: rnd(seq(b_1,b_2),c) will randomize b_1, b_2, and c, such that b_1 is always followed by b_2. Hence,
    * the two valid sequences that can be produced are: [b_1, b_2, c] and [c, b_1, b]
