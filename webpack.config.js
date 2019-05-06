@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/rbe.js',
+  entry: './src/tsr.js',
   output: {
-    filename: 'rbe.dev.js',
+    filename: 'tsr.dev.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'rbe',
-    libraryExport: 'rbe',
+    library: 'tsr',
+    libraryExport: 'tsr',
     libraryTarget: 'window'
   },
   mode: 'development',

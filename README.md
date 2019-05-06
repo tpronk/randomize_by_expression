@@ -86,10 +86,10 @@ seq(fi_sli, one(
 ```
 #### Output
 ```
-[fs_1, ct_1, ct_2, ss_1, it_1, it_2]
-[fs_1, ct_1, ct_2, ss_1, it_2, it_1]
-[fs_1, ct_2, ct_1, ss_1, it_1, it_2]
-[fs_1, ct_2, ct_1, ss_1, it_2, it_1]
+[fi_sli, ct_1, ct_2, se_sli, it_1, it_2]
+[fi_sli, ct_1, ct_2, se_sli, it_2, it_1]
+[fi_sli, ct_2, ct_1, se_sli, it_1, it_2]
+[fi_sli, ct_2, ct_1, se_sli, it_2, it_1]
 ```
 
 ## Approximate Combinator
